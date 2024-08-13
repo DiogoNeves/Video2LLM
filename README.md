@@ -1,10 +1,10 @@
 ![image](https://github.com/user-attachments/assets/88831c54-6807-424d-bf2e-9985d7c5464f)
 
-# Video2Image
+# Video2LLM
 
 > **Transform video content into a format that LLMs can understand.**
 
-Video2Image converts video frames into a single, comprehensive image, enabling you to ask questions about the video to a Visual LLM.  
+Video2LLM converts video frames into a single, comprehensive image, enabling you to ask questions about the video to a Visual LLM.  
 Since LLMs can process images as inputs, this tool packages your video as a sequence of frames in one image, allowing the model to analyze and respond to your questions about the video.
 
 The intention of this project is to make it simple to use video content in any LLM by exporting the image. However, there's also a way to directly ask questions using the `video_gpt.py` script.
@@ -33,7 +33,7 @@ This question requires understanding the flow of the video, which can only be co
 
 ### 📼 How is the Video Processed?
 
-Video2Image processes the video by sampling frames at a specified rate, resizing them, and concatenating them into a single image. This image represents the flow of the video, making it possible for the LLM to analyze and respond accurately.  
+Video2LLM processes the video by sampling frames at a specified rate, resizing them, and concatenating them into a single image. This image represents the flow of the video, making it possible for the LLM to analyze and respond accurately.  
 
 ![output](https://github.com/user-attachments/assets/50a4836d-a930-45f7-bc45-f991750c2c8c)
 
@@ -61,8 +61,8 @@ _See [video_gpt.py](video_gpt.py)_
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/DiogoNeves/Video2Image.git
-   cd Video2Image
+   git clone https://github.com/DiogoNeves/Video2LLM.git
+   cd Video2LLM
    ```
 2. **Install dependencies**:
    ```bash
@@ -121,7 +121,7 @@ _See [video_gpt.py](video_gpt.py)_
 
 ## 🤝 Contribution
 
-I welcome suggestions and prompt improvements! If you have ideas for how to enhance the tool or ways to make the prompts more effective, feel free to share them. Your feedback is valuable to the ongoing development of Video2Image.
+I welcome suggestions and prompt improvements! If you have ideas for how to enhance the tool or ways to make the prompts more effective, feel free to share them. Your feedback is valuable to the ongoing development of Video2LLM.
 
 ## 📬 How to Reach Me
 

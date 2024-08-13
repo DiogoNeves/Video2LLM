@@ -9,8 +9,10 @@ The intention of this project is to make it simple to use video content in any L
 
 This project is experimental, and I’m actively researching and refining the approach.
 
-Feedback and suggestions are highly encouraged as I continue to improve this tool.  
+Feedback and suggestions are encouraged.  
 I'll also be preparing a YouTube video on this, which you can find on [my YouTube channel](https://youtube.com/@diogoneves?si=C7FD8V1ElaBiTxrp).
+
+---
 
 ## 🎥 Sample
 

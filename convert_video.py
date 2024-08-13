@@ -51,6 +51,25 @@ def concatenate_frames_with_lines(frames: List[Image.Image], line_width: int, li
 
     return concatenated_image
 
+def generate_image_from_video(
+    video_path: str,
+    max_frames: int = 20,
+    fps_sampling: int = 10
+) -> Image.Image:
+    """
+    Generate a concatenated image from video frames.
+
+    Args:
+        video_path: Path to the input video file.
+        max_frames: Maximum number of frames to extract (default: 20).
+        fps_sampling: Frames per second to sample from the video (default: 10).
+
+    Returns:
+        A PIL Image object representing the concatenated frames.
+    """
+    frames = extract_frames(video_path, fps_sampling, max_frames)
+    return concatenate_frames_with_lines(frames, LINE_WIDTH, LINE_COLOR)
+
 def save_image(image: Image.Image, output_path: str) -> None:
     """Save the image to the specified output path."""
     image.save(output_path)
@@ -72,9 +91,8 @@ def process_video_to_image(
         max_frames: Maximum number of frames to extract (default: 20).
         fps_sampling: Frames per second to sample from the video (default: 10).
     """
-    frames = extract_frames(video_path, fps_sampling, max_frames)
-    concatenated_image = concatenate_frames_with_lines(frames, LINE_WIDTH, LINE_COLOR)
-    save_image(concatenated_image, output_path)
+    image = generate_image_from_video(video_path, max_frames, fps_sampling)
+    save_image(image, output_path)
 
 if __name__ == "__main__":
     app()

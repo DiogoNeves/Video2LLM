@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/88831c54-6807-424d-bf2e-9985d7c5464f)
+![image](https://github.com/user-attachments/assets/5ddbad92-a39f-44fb-9e26-8993c6654baa)
 
 # Video2LLM
 

@@ -14,6 +14,9 @@ This project is experimental, and I’m actively researching and refining the ap
 Feedback and suggestions are encouraged.  
 I'll also be preparing a YouTube video on this, which you can find on [my YouTube channel](https://youtube.com/@diogoneves?si=C7FD8V1ElaBiTxrp).
 
+I have since been informed of https://cookbook.openai.com/examples/gpt_with_vision_for_video_understanding which is a similar approach.  
+It's good to have validation, but that cookbook may be more reliable than this project.
+
 ---
 
 ## 🎥 Sample
